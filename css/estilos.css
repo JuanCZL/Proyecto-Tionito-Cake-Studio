@@ -1,0 +1,887 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color:#202E53;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 180px;
+    padding: 3px 3%;
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: 210px;
+    height: 150px;
+    transition: all 0.3s;
+}
+
+.logo:hover{
+    transform: scale(1.2);
+}
+
+nav li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+li:hover{
+    transform: scale(1.2);
+    transition: all 0.3s;
+}
+
+nav li a{
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.logocarrito{
+background-color: #202E53;
+}
+
+.btn-carrito{
+    border: none;
+    height: 50px;
+}
+
+.carrito{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    transition: all 0.3s;
+    background-color: #202E53;
+}
+
+.carrito:hover{
+    transform: scale(1.2);
+}
+
+.abrir-menu{
+    background-color: #202E53;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-right: 15px;
+}
+
+.abrir-menu:hover{
+    transform: scale(1.1);
+}
+
+.cerrar-menu{
+    cursor: pointer;
+    transition: all 0.3s;
+    background-color: #12788C;
+    border: none;
+    margin-right: 5px;
+}
+
+.cerrar-menu:hover{
+    transform: scale(1.1);
+}
+
+.saludos1{
+    background-image:url(../img/juan-silvia1.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 1px 1px #202E53, 1px 1px 1px #94D4D6;
+    color:white;
+    padding: 470px;
+}
+
+.welcome{
+    font-size: 55px;
+}
+
+.fiesta{
+    font-size: 40px;
+}
+
+.intro{
+    font-size: 30px;
+}
+
+footer{
+    background-color: #202E53;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.enlaces{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 20px;
+}
+
+a{
+    color: salmon;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.iconos{
+    width: 45px;
+    padding-top: 5px;
+}
+
+.logo-carita{
+    width: 55px;
+}
+
+.copy{
+    font-size: 10px;
+    text-decoration: none;
+    color: salmon;
+    font-family: sans-serif;
+    margin-left: 90px;
+    margin-bottom: 5px;
+}
+
+.derechos{
+    font-size: 10px;
+    text-decoration: none;
+    color: salmon;
+    font-family: sans-serif;
+    margin-right: 70px;
+    margin-bottom: 5px;
+}
+
+.copyright{
+    width: 10px;
+}
+
+.terminos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.firus{
+    display: flex;
+    justify-content: space-between;
+}
+
+.firulais{
+    width: 500px;
+    height: 700px;
+    margin: 10px;
+    border: 5px solid salmon;
+    border-radius: 5% ;
+}
+
+.nosotros{
+    color: salmon;
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 60px;
+    text-shadow: 1px 1px 1px #202E53, 1px 1px 1px salmon;
+}
+
+.nosotros-parrafo{
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: bolder;
+    color: salmon;
+    padding: 20px;
+    text-shadow: 1px 1px 1px #202E53, 1px 1px 1px salmon;
+    overflow: hidden;
+}
+
+.primavera, .unica, .capas, .pie, .carrot, .torre, .choco, .red, .cheese, .tira{
+    color: salmon;
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 50px;
+    margin-left: 40px;
+    text-shadow: 1px 1px 1px #202E53, 1px 1px 1px salmon;
+}
+
+.tercer-parrafo{
+    text-align:center;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: bolder;
+    color: salmon;
+    padding-left: 30px;
+    padding-top: 20px;
+    text-shadow: 1px 1px 1px #202E53, 1px 1px 1px salmon;
+    overflow: hidden;
+}
+
+.varios{
+    display: grid;
+    justify-items:center;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    padding: 15px;
+}
+
+.producto-imagen{
+    width: 360px;
+    height: 380px;
+    border: 5px solid #94D4D6;
+    border-radius: 5%;
+}
+
+.producto-imagen2{
+    width: 200px;
+    height: 230px;
+    border: 5px solid #94D4D6;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.producto-imagen3{
+    width: 90px;
+    height: 100px;
+    border: 3px solid #202E53;
+    border-radius: 5%;
+}
+
+.contenedor-productos{
+    display: grid;
+    justify-items:center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.producto-nombre{
+    text-align:start;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: salmon;
+    text-shadow: 1px 1px 1px #202E53, 1px 1px 1px salmon;
+}
+
+.producto-tamaño{
+    text-align:start;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    color: salmon;
+}
+
+.producto-precio{
+    text-align:start;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    color: salmon;
+}
+
+.producto-agregar{
+    background-color: #94D4D6;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 11px;
+    font-weight: bolder;
+    color: blue;
+    padding: 8px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.producto-agregar:hover{
+    transform: scale(1.2);
+    background-color:#12788C;
+    color: white;
+}
+
+.titulo-carrito{
+    color: salmon;
+    text-align:start;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 1px #202E53, 1px 1px 1px salmon;
+}
+
+.carrito-vacio, .carrito-comprado{
+    color: salmon;
+    text-align:center;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 30px;
+    text-shadow: 1px 1px 1px #202E53, 1px 1px 1px salmon;
+}
+
+.carrito-productos{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.span{
+    background-color: #202E53;
+    color: #94D4D6;
+}
+
+.carrito-producto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #94D4D6;
+    color: #202E53;
+    padding: 10px;
+    border-radius: 1rem;
+}
+
+.carrito-producto small{
+    font-size: 15px;
+}
+
+.carrito-producto-eliminar{
+    border: 0;
+    background-color: transparent;
+    color: salmon;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-right: 15px;
+}
+
+.carrito-producto-eliminar:hover{
+    transform: scale(1.2);
+}
+
+.carrito-acciones{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.carrito-acciones-vaciar{
+    border: 0;
+    background-color: #94D4D6;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 11px;
+    font-weight: bolder;
+    color: blue;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.carrito-acciones-vaciar:hover{
+    background-color:#12788C;
+    color: white;
+}
+
+.carrito-acciones-comprar{
+    border: 0;
+    background-color: blue;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 11px;
+    font-weight: bolder;
+    color:#94D4D6;
+    padding: 8px;
+    border: 1px solid black;
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.carrito-acciones-comprar:hover{
+    background-color:white;
+    color: #12788C;
+}
+
+.carrito-acciones-derecha{
+    display: flex;
+    align-items: center;
+}
+
+.carrito-acciones-total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #94D4D6;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 11px;
+    font-weight: bolder;
+    color: blue;
+    padding: 8px;
+    border: 1px solid black;
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    gap: 5px;
+}
+
+.disabled{
+    display: none;
+}
+
+.abrir-menu, .cerrar-menu{
+    display: none;
+}
+
+@media(max-width: 1024px){
+
+    .abrir-menu, .cerrar-menu{
+        display: none;
+    }
+
+    header{
+        height: 165px;
+        padding: 3px 3%;
+    }
+    
+    .logo{
+        margin-right: 171px;
+        height: 130px;
+    }
+    
+    nav li{
+        
+        padding: 0 4px;
+    }
+    
+    nav li a{
+        font-size: 12px;
+    }
+    
+    .btn-carrito{
+        height: 38px;
+    }
+    
+    .carrito{
+        width: 43px;
+        height: 43px;
+    }
+
+    .saludos1{
+        padding: 310px;
+    }
+    
+    .welcome{
+        font-size: 50px;
+    }
+    
+    .fiesta{
+        font-size: 35px;
+    }
+    
+    .intro{
+        font-size: 25px;
+    }
+
+    .firulais{
+        width: 400px;
+        height: 600px;
+    }
+    
+    .nosotros{
+        font-size: 40px;
+    }
+    
+    .nosotros-parrafo{
+        font-size: 20px;
+        padding: 18px;
+    }
+
+    .producto-imagen2{
+        width: 180px;
+        height: 210px;
+    }
+}
+
+@media(max-width: 768px){
+
+    .abrir-menu, .cerrar-menu{
+        display: none;
+    }
+
+    .logo{
+        margin-right: 88px;
+        height: 120px;
+    }
+    
+    nav li{
+        
+        padding: 0 3px;
+    }
+    
+    nav li a{
+        font-size: 10px;
+    }
+
+    .carrito{
+        width: 42px;
+        height: 42px;
+    }
+    
+    .saludos1{
+        padding: 220px;
+    }
+    
+    .welcome{
+        font-size: 45px;
+    }
+    
+    .fiesta{
+        font-size: 30px;
+    }
+    
+    .intro{
+        font-size: 20px;
+    }
+    
+    .firus{
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr;
+    }
+
+    .primavera, .unica, .capas, .pie, .carrot, .torre, .choco, .red, .cheese, .tira{
+        font-size: 30px;
+        margin-top: 60px;
+        margin-left: 20px;
+    }
+
+    .tercer-parrafo{
+        font-size: 18px;
+        padding-left: 25px;
+        padding-top: 15px;
+    }
+    
+    .producto-imagen{
+        width: 350px;
+        height: 370px;
+        margin-top: 20px;
+    }
+
+    .producto-imagen2{
+        width: 280px;
+        height: 300px;
+    }
+
+    .contenedor-productos{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width: 600px){
+
+    .abrir-menu, .cerrar-menu{
+        display: block;
+    }
+
+    header{
+        height: 140px;
+        padding: 2.5px 2.5%;
+    }
+    
+    .logo{
+        height: 110px;
+    }
+
+    .saludos1{
+        padding: 175px;
+    }
+    
+    .welcome{
+        font-size: 40px;
+    }
+    
+    .fiesta{
+        font-size: 25px;
+    }
+    
+    .intro{
+        font-size: 15px;
+    }
+
+    nav{
+        opacity: 0;
+        visibility:hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        padding: 10px;
+        background-color: #12788C;
+        box-shadow: 0 0 0 100vmax rgba(162, 150, 207, 0.89); 
+        transition: all 400ms ease-in-out;
+        transform: translateX(100%);
+    }
+
+    .nav.visible{
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(0%);
+    }
+
+    .nav-links{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: .5rem;
+    }  
+
+    nav li a{
+        color: white;
+    }
+
+    .cerrar-menu{
+        background-color: #12788C;
+        border: none;
+        margin-right: 6px;
+    }
+
+    .logocarrito{
+      background-color: #12788C;
+    }
+
+    .carrito{
+        background-color: #12788C;
+    }
+        
+    .carrito:hover{
+        transform: scale(1.0);
+    }
+
+    .enlaces{
+        gap: 25px;
+        padding: 10px;
+    }
+    
+    a{
+        font-size: 10px;
+    }
+    
+    .iconos{
+        width: 30px;
+        padding-top: 2px;
+    }
+    
+    .logo-carita{
+        width: 40px;
+    }
+    
+    .copy{
+        margin-left: 35px;
+        margin-bottom: 2px;
+    }
+    
+    .derechos{
+        font-size: 10px;
+        margin-right: 25px;
+        margin-bottom: 2px;
+    }
+    
+    .copyright{
+        width: 5px;
+    }
+
+    .varios{
+        display: grid;
+        justify-items:center;
+        grid-template-columns: 1fr;
+    }
+
+    .producto-imagen2{
+        width: 290px;
+        height: 320px;
+    }
+
+    .contenedor-productos{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width: 480px){
+
+    .saludos1{
+        padding: 110px;
+    }
+
+    .producto-imagen2{
+        width: 220px;
+        height: 240px;
+    }
+
+    .contenedor-productos{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width: 425px){
+
+    .logo{
+        margin-right: 80px;
+    }
+
+    .saludos1{
+        padding: 90px;
+    }
+
+    .firulais{
+        width: 300px;
+        height: 500px;
+    }
+    
+    .nosotros{
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    
+    .nosotros-parrafo{
+        font-size: 18px;
+        padding: 15px;
+    }
+
+    .producto-imagen2{
+        width: 190px;
+        height: 210px;
+    }
+}
+
+@media(max-width: 375px){
+
+    header{
+        height: 140px;
+        padding: 2.5px 2.5%;
+    }
+    
+    .logo{
+        margin-right: 160px;
+        height: 100px;
+    }
+
+    .saludos1{
+        padding: 60px;
+    }
+
+    .enlaces{
+        gap: 15px;
+        padding: 5px;
+    }
+
+    .producto-imagen2{
+        width: 160px;
+        height: 180px;
+    }
+}
+
+@media(max-width: 320px){
+
+    .logo{
+        margin-right: 125px;
+        height: 110px;
+    }
+
+    .saludos1{
+        padding: 40px;
+    }
+    
+    .welcome{
+        font-size: 35px;
+    }
+    
+    .fiesta{
+        font-size: 20px;
+    }
+    
+    .intro{
+        font-size: 15px;
+    }
+
+    .enlaces{
+        gap: 10px;
+        padding: 5px;
+    }
+    
+    a{
+        font-size: 8px;
+    }
+    
+    .iconos{
+        width: 25px;
+        padding-top: 2px;
+    }
+    
+    .logo-carita{
+        width: 30px;
+    }
+    
+    .copy{
+        margin-left: 20px;
+        margin-bottom: 2px;
+    }
+    
+    .derechos{
+        font-size: 5px;
+        margin-right: 10px;
+        margin-bottom: 2px;
+    }
+    
+    .copyright{
+        font-size: 5px;
+        width: 2px;
+    }
+
+    .producto-imagen2{
+        width: 140px;
+        height: 160px;
+    }
+}
